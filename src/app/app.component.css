@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  height: 100vh;
+}
+.container-inner {
+  height: 50vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.title-wrapper {
+  text-align: center;
+}
+
+input {
+  width: 150px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+span, p {
+  display: block;
+  text-align: center;
+}
+
+.calc-wrapper {
+  padding: 20px;
+  width: 200px;
+  display: block;
+  margin: auto;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+}
